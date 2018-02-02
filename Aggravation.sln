@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.Web", "Aggravation.Web\Aggravation.Web.csproj", "{BB9A8383-678E-4E79-B023-CBC3D659C09F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCards", "DeckOfCards\DeckOfCards.csproj", "{030CD9C5-D68D-442F-81CF-CC3DE1276D7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.GameEngine", "Aggravation.GameEngine\Aggravation.GameEngine.csproj", "{51D73A85-669C-48F3-9456-8101E66B9F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.Networking", "Aggravation.Networking\Aggravation.Networking.csproj", "{7AC4F0DA-A3C8-4ECC-A8A6-8F1174451888}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Dependencies", "External Dependencies", "{83403E66-5F74-4A61-8687-57B87201CA3D}"
+	ProjectSection(SolutionItems) = preProject
+		External Dependencies\Microsoft.Practices.Prism.dll = External Dependencies\Microsoft.Practices.Prism.dll
+		External Dependencies\Microsoft.Practices.Prism.extmap.xml = External Dependencies\Microsoft.Practices.Prism.extmap.xml
+		External Dependencies\Microsoft.Practices.Prism.Interactivity.dll = External Dependencies\Microsoft.Practices.Prism.Interactivity.dll
+		External Dependencies\Microsoft.Practices.Prism.Interactivity.extmap.xml = External Dependencies\Microsoft.Practices.Prism.Interactivity.extmap.xml
+		External Dependencies\Microsoft.Practices.Prism.Interactivity.pdb = External Dependencies\Microsoft.Practices.Prism.Interactivity.pdb
+		External Dependencies\Microsoft.Practices.Prism.Interactivity.XML = External Dependencies\Microsoft.Practices.Prism.Interactivity.XML
+		External Dependencies\Microsoft.Practices.Prism.MefExtensions.dll = External Dependencies\Microsoft.Practices.Prism.MefExtensions.dll
+		External Dependencies\Microsoft.Practices.Prism.MefExtensions.extmap.xml = External Dependencies\Microsoft.Practices.Prism.MefExtensions.extmap.xml
+		External Dependencies\Microsoft.Practices.Prism.MefExtensions.pdb = External Dependencies\Microsoft.Practices.Prism.MefExtensions.pdb
+		External Dependencies\Microsoft.Practices.Prism.MefExtensions.xml = External Dependencies\Microsoft.Practices.Prism.MefExtensions.xml
+		External Dependencies\Microsoft.Practices.Prism.pdb = External Dependencies\Microsoft.Practices.Prism.pdb
+		External Dependencies\Microsoft.Practices.Prism.UnityExtensions.dll = External Dependencies\Microsoft.Practices.Prism.UnityExtensions.dll
+		External Dependencies\Microsoft.Practices.Prism.UnityExtensions.extmap.xml = External Dependencies\Microsoft.Practices.Prism.UnityExtensions.extmap.xml
+		External Dependencies\Microsoft.Practices.Prism.UnityExtensions.pdb = External Dependencies\Microsoft.Practices.Prism.UnityExtensions.pdb
+		External Dependencies\Microsoft.Practices.Prism.UnityExtensions.xml = External Dependencies\Microsoft.Practices.Prism.UnityExtensions.xml
+		External Dependencies\Microsoft.Practices.Prism.xml = External Dependencies\Microsoft.Practices.Prism.xml
+		External Dependencies\Microsoft.Practices.ServiceLocation.dll = External Dependencies\Microsoft.Practices.ServiceLocation.dll
+		External Dependencies\Microsoft.Practices.ServiceLocation.extmap.xml = External Dependencies\Microsoft.Practices.ServiceLocation.extmap.xml
+		External Dependencies\Microsoft.Practices.ServiceLocation.XML = External Dependencies\Microsoft.Practices.ServiceLocation.XML
+		External Dependencies\Microsoft.Practices.Unity.Silverlight.dll = External Dependencies\Microsoft.Practices.Unity.Silverlight.dll
+		External Dependencies\Microsoft.Practices.Unity.Silverlight.extmap.xml = External Dependencies\Microsoft.Practices.Unity.Silverlight.extmap.xml
+		External Dependencies\Microsoft.Practices.Unity.Silverlight.xml = External Dependencies\Microsoft.Practices.Unity.Silverlight.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.Infrastructure", "Aggravation.Infrastructure\Aggravation.Infrastructure.csproj", "{065E73F1-F7A8-4321-8FF2-2A89EDD3915C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.Shell", "Aggravation.Shell\Aggravation.Shell.csproj", "{A4F88460-CBBF-4F1C-88AF-1E06F6E55224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.GameBoard.SixPlayerTraditional", "Aggravation.GameBoard.SixPlayerTraditional\Aggravation.GameBoard.SixPlayerTraditional.csproj", "{08EA92A3-8F9F-49E8-B0CB-B06DAE225E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.Game.Status", "Aggravation.Game.Status\Aggravation.Game.Status.csproj", "{3435A228-4989-490A-BC50-C7886DB77F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.Game.GameControls", "Aggravation.Game.GameControls\Aggravation.Game.GameControls.csproj", "{B19331D9-BAE8-46C1-B8A6-D98C6CAD856F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.Game.PlayerPanels", "Aggravation.Game.PlayerPanels\Aggravation.Game.PlayerPanels.csproj", "{0B82EA1F-F70A-42D0-9FBE-84478142B4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.Game.Ui", "Aggravation.Game.Ui\Aggravation.Game.Ui.csproj", "{DF28756F-D145-4B51-8346-B705EF8E37B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggravation.GameBoard.SixPlayerModern", "Aggravation.GameBoard.SixPlayerModern\Aggravation.GameBoard.SixPlayerModern.csproj", "{5A71EBD9-C863-448C-B23F-77D03072B09A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB9A8383-678E-4E79-B023-CBC3D659C09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9A8383-678E-4E79-B023-CBC3D659C09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9A8383-678E-4E79-B023-CBC3D659C09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9A8383-678E-4E79-B023-CBC3D659C09F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030CD9C5-D68D-442F-81CF-CC3DE1276D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030CD9C5-D68D-442F-81CF-CC3DE1276D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030CD9C5-D68D-442F-81CF-CC3DE1276D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030CD9C5-D68D-442F-81CF-CC3DE1276D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D73A85-669C-48F3-9456-8101E66B9F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D73A85-669C-48F3-9456-8101E66B9F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D73A85-669C-48F3-9456-8101E66B9F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D73A85-669C-48F3-9456-8101E66B9F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC4F0DA-A3C8-4ECC-A8A6-8F1174451888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC4F0DA-A3C8-4ECC-A8A6-8F1174451888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC4F0DA-A3C8-4ECC-A8A6-8F1174451888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC4F0DA-A3C8-4ECC-A8A6-8F1174451888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065E73F1-F7A8-4321-8FF2-2A89EDD3915C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065E73F1-F7A8-4321-8FF2-2A89EDD3915C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065E73F1-F7A8-4321-8FF2-2A89EDD3915C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065E73F1-F7A8-4321-8FF2-2A89EDD3915C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F88460-CBBF-4F1C-88AF-1E06F6E55224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F88460-CBBF-4F1C-88AF-1E06F6E55224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F88460-CBBF-4F1C-88AF-1E06F6E55224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F88460-CBBF-4F1C-88AF-1E06F6E55224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EA92A3-8F9F-49E8-B0CB-B06DAE225E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EA92A3-8F9F-49E8-B0CB-B06DAE225E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EA92A3-8F9F-49E8-B0CB-B06DAE225E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EA92A3-8F9F-49E8-B0CB-B06DAE225E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3435A228-4989-490A-BC50-C7886DB77F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3435A228-4989-490A-BC50-C7886DB77F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3435A228-4989-490A-BC50-C7886DB77F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3435A228-4989-490A-BC50-C7886DB77F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19331D9-BAE8-46C1-B8A6-D98C6CAD856F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19331D9-BAE8-46C1-B8A6-D98C6CAD856F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19331D9-BAE8-46C1-B8A6-D98C6CAD856F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19331D9-BAE8-46C1-B8A6-D98C6CAD856F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B82EA1F-F70A-42D0-9FBE-84478142B4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B82EA1F-F70A-42D0-9FBE-84478142B4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B82EA1F-F70A-42D0-9FBE-84478142B4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B82EA1F-F70A-42D0-9FBE-84478142B4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF28756F-D145-4B51-8346-B705EF8E37B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF28756F-D145-4B51-8346-B705EF8E37B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF28756F-D145-4B51-8346-B705EF8E37B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF28756F-D145-4B51-8346-B705EF8E37B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A71EBD9-C863-448C-B23F-77D03072B09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A71EBD9-C863-448C-B23F-77D03072B09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A71EBD9-C863-448C-B23F-77D03072B09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A71EBD9-C863-448C-B23F-77D03072B09A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

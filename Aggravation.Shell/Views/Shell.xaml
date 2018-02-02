@@ -1,0 +1,40 @@
+﻿<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" xmlns:Regions="http://www.codeplex.com/prism" xmlns:controlsToolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:Aggravation_Game_Ui="clr-namespace:Aggravation.Game.Ui;assembly=Aggravation.Game.Ui" x:Class="Aggravation.Shell.Views.Shell"
+    Width="1178" Height="861" mc:Ignorable="d">
+	<Grid x:Name="grdLayoutRoot" Background="Black" Width="1178" Height="861">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="285"/>
+		</Grid.ColumnDefinitions>
+
+		<Grid x:Name="grdLeft" Grid.Column="0">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="135"/>
+			</Grid.RowDefinitions>
+
+			<Grid x:Name="grdBottom" Grid.Row="1">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="115"/>
+				</Grid.ColumnDefinitions>
+				
+				<ItemsControl Grid.Column="0" x:Name="StatusRegion" Regions:RegionManager.RegionName="StatusRegion" />
+				<ItemsControl Grid.Column="1" x:Name="ControlsRegion" Regions:RegionManager.RegionName="ControlsRegion" />
+			</Grid>
+			
+			<ItemsControl Grid.Row="0" x:Name="GameBoardRegion" Regions:RegionManager.RegionName="GameBoardRegion" />
+		</Grid>
+		    	
+		<ItemsControl Grid.Column="1" x:Name="GamePanelsRegion" Regions:RegionManager.RegionName="GamePanelsRegion" />
+
+		<controlsToolkit:BusyIndicator Grid.RowSpan="3"
+			BusyContent="{Binding BusyDisplayMessage}"
+			IsBusy="{Binding IsBusy}" >
+            <Rectangle Fill="Transparent" IsHitTestVisible="False" />
+		</controlsToolkit:BusyIndicator>
+
+		<Aggravation_Game_Ui:Instructions x:Name="inst" Margin="76,25,73,29" Grid.ColumnSpan="2" Visibility="Collapsed"/>
+		<Aggravation_Game_Ui:NewGameWindow x:Name="newGame" Margin="189,184,-96,185" Visibility="Collapsed"/>
+
+	</Grid>
+</UserControl>

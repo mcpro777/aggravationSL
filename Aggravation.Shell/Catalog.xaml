@@ -1,0 +1,26 @@
+﻿<Modularity:ModuleCatalog xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                          xmlns:Modularity="clr-namespace:Microsoft.Practices.Prism.Modularity;assembly=Microsoft.Practices.Prism"
+                          xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <Modularity:ModuleInfo ModuleName="SixPlayerTraditionalModule" State="NotStarted"
+                           ModuleType="Aggravation.GameBoard.SixPlayerTraditional.SixPlayerTraditionalModule, Aggravation.GameBoard.SixPlayerTraditional, Version=1.0.0.0"
+                           Ref="Aggravation.GameBoard.SixPlayerTraditional.xap" />
+
+    <!--<Modularity:ModuleInfo ModuleName="SixPlayerModernModule" State="NotStarted"
+                           ModuleType="Aggravation.GameBoard.SixPlayerModern.SixPlayerModernModule, Aggravation.GameBoard.SixPlayerModern, Version=1.0.0.0"
+                           Ref="Aggravation.GameBoard.SixPlayerModern.xap" />-->
+    
+    <Modularity:ModuleInfo ModuleName="StatusModule" State="NotStarted"
+                           ModuleType="Aggravation.Game.Status.StatusPanelModule, Aggravation.Game.Status, Version=1.0.0.0"
+                           Ref="Aggravation.Game.Status.xap" />
+
+    <Modularity:ModuleInfo ModuleName="ControlsModule" State="NotStarted"
+                           ModuleType="Aggravation.Game.GameControls.GameControlsModule, Aggravation.Game.GameControls, Version=1.0.0.0"
+                           Ref="Aggravation.Game.GameControls.xap" />
+
+    <Modularity:ModuleInfo ModuleName="PlayerPanelsModule" State="NotStarted"
+                           ModuleType="Aggravation.Game.PlayerPanels.PlayerPanelsModule, Aggravation.Game.PlayerPanels, Version=1.0.0.0"
+                           Ref="Aggravation.Game.PlayerPanels.xap" />
+
+</Modularity:ModuleCatalog>

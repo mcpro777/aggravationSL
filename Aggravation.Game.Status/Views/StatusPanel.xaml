@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="Aggravation.Game.Status.Views.StatusPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="132" Width="755">
+
+    <Grid x:Name="LayoutRoot">
+        <Canvas x:Name="StatusPanelCanvas" Height="132" Width="755">
+            <Grid x:Name="statusPanelGrid" Height="132" Width="755" Background="#FF121212" Opacity="0.87">
+                <ScrollViewer d:LayoutOverrides="Width">
+                    <TextBlock x:Name="tbStatus" TextWrapping="Wrap" Foreground="White" Opacity="0.7"/>
+                </ScrollViewer>
+            </Grid>
+        </Canvas>
+    </Grid>
+</UserControl>
